@@ -1,0 +1,16 @@
+{
+  "main.css": "/aboba/static/css/main.c2107f72.chunk.css",
+  "main.js": "/aboba/static/js/main.b219e5c5.chunk.js",
+  "main.js.map": "/aboba/static/js/main.b219e5c5.chunk.js.map",
+  "static/css/1.fe40f168.chunk.css": "/aboba/static/css/1.fe40f168.chunk.css",
+  "static/js/1.c70bc214.chunk.js": "/aboba/static/js/1.c70bc214.chunk.js",
+  "static/js/1.c70bc214.chunk.js.map": "/aboba/static/js/1.c70bc214.chunk.js.map",
+  "runtime~main.js": "/aboba/static/js/runtime~main.d1215dce.js",
+  "runtime~main.js.map": "/aboba/static/js/runtime~main.d1215dce.js.map",
+  "static/media/App.css": "/aboba/static/media/1.4c8f1940.jpg",
+  "static/css/main.c2107f72.chunk.css.map": "/aboba/static/css/main.c2107f72.chunk.css.map",
+  "static/css/1.fe40f168.chunk.css.map": "/aboba/static/css/1.fe40f168.chunk.css.map",
+  "index.html": "/aboba/index.html",
+  "precache-manifest.7c5bf78c5d6705dc86c503c90249ef93.js": "/aboba/precache-manifest.7c5bf78c5d6705dc86c503c90249ef93.js",
+  "service-worker.js": "/aboba/service-worker.js"
+}
