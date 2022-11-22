@@ -1,38 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;  
+}
 .App {
-  text-align: center;
+  width: 100%;
+  background: url("1.jpg");
+  background-size: 100%;
+  background-attachment: fixed ;
+  background-repeat: no-repeat;
+  padding-top: 200px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.Main{
+  width:60%;
+  /* background-color: white; */
   min-height: 100vh;
+  margin: 0px auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  gap:30px;
+  padding-bottom: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  .item{
+    min-height: 20vh;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    background-color: rgba(119, 131, 228, 0.9);
+    font-style: italic;
+    font-family: 'Montserrat Alternates', sans-serif;
+    animation: fadeInUp ease-in-out 3s forwards;
   }
-}
+  .photo1{
+    padding: 40px; 
+    background: #f0f0f0; 
+    border: 2px solid #800000; 
+    display: inline-block; 
+  }
+  .item1{
+    background-color: none;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 140px;
+    font-style: italic;
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 77, 149);
+    background-color: none;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 3px solid rgb(28, 89, 120);
+    animation: fadeInDown ease-in-out 3s forwards;
+  }
+  .item12{
+    background-color: none;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 140px;
+    font-style: italic;
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 77, 149);
+    background-color: none;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 3px solid rgb(28, 89, 120);
+  }
+  .out{
+    background-color: rgb(28, 89, 120);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .kostil{
+    margin: 0 auto;
+  }
+  .kostil2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
